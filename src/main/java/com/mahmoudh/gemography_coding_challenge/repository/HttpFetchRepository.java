@@ -1,18 +1,13 @@
-package com.mahmoudh.gemography_coding_challenge;
+package com.mahmoudh.gemography_coding_challenge.repository;
 
 import com.google.gson.Gson;
-import model.Data;
+import com.mahmoudh.gemography_coding_challenge.model.Data;
 import org.springframework.stereotype.Repository;
-import org.springframework.stereotype.Service;
 
 import java.io.*;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
-import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.util.Date;
 
 @Repository
 public class HttpFetchRepository {

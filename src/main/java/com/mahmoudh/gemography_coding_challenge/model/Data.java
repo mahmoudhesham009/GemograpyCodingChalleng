@@ -1,5 +1,5 @@
 
-package model;
+package com.mahmoudh.gemography_coding_challenge.model;
 
 import java.util.List;
 import javax.annotation.Generated;

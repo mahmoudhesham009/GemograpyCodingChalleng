@@ -1,5 +1,5 @@
 
-package model;
+package com.mahmoudh.gemography_coding_challenge.model;
 
 import javax.annotation.Generated;
 import com.google.gson.annotations.Expose;

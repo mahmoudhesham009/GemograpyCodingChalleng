@@ -1,8 +1,9 @@
-package com.mahmoudh.gemography_coding_challenge;
+package com.mahmoudh.gemography_coding_challenge.service;
 
-import model.Data;
-import model.Item;
-import model.Language;
+import com.mahmoudh.gemography_coding_challenge.model.Data;
+import com.mahmoudh.gemography_coding_challenge.model.Item;
+import com.mahmoudh.gemography_coding_challenge.model.Language;
+import com.mahmoudh.gemography_coding_challenge.repository.HttpFetchRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

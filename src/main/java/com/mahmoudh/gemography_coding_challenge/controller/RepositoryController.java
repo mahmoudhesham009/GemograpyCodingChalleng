@@ -1,7 +1,8 @@
-package com.mahmoudh.gemography_coding_challenge;
+package com.mahmoudh.gemography_coding_challenge.controller;
 
 
-import model.Language;
+import com.mahmoudh.gemography_coding_challenge.service.RepoService;
+import com.mahmoudh.gemography_coding_challenge.model.Language;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
